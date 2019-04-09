@@ -1,3 +1,5 @@
+"syntax enable
+
 set fenc =utf-8
 
 set enc=utf-8
@@ -20,8 +22,7 @@ set smartindent
 
 set nowrap
 
-
-set backupdir=$HOME/vimbackup
+set nobackup
 
 set nocompatible
 
