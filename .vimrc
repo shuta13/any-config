@@ -1,5 +1,8 @@
 "syntax enable
 
+syntax on
+colorscheme molokai
+
 set fenc =utf-8
 
 set enc=utf-8
