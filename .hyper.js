@@ -8,7 +8,7 @@ module.exports = {
       width: 560,
       height: 400,
       startX: 50,
-      startY: 50
+      startY: 50,
     },
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
@@ -18,7 +18,8 @@ module.exports = {
     fontSize: 12,
 
     // font family with optional fallbacks
-    fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily:
+      'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -159,7 +160,7 @@ module.exports = {
     // [Optional] Mac Only. Need restart. Enable the vibrance and blurred background
     // OPTIONS: 'dark', 'ultra-dark', 'bright'
     // NOTE: The backgroundOpacity should be between 0.1 and 0.9 to see the effect.
-    vibrancy: 'dark'
+    vibrancy: 'dark',
   },
 
   // a list of plugins to fetch and install from npm
@@ -169,13 +170,13 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    "hyper-broadcast",
-    "hyper-search",
-    "hypercwd",
-    "hyper-statusline",
-    "hyper-tab-icons-plus",
-    "hyper-window-size",
-    "hyper-night-owl"
+    'hyper-broadcast',
+    'hyper-search',
+    'hypercwd',
+    'hyper-statusline',
+    'hyper-tab-icons-plus',
+    'hyper-window-size',
+    'hyper-night-owl',
   ],
 
   // in development, you can create a directory under
@@ -188,4 +189,3 @@ module.exports = {
     // 'window:devtools': 'cmd+alt+o',
   },
 };
-
