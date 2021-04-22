@@ -8,9 +8,6 @@ set number
 
 set noswapfile
 
-:colorscheme iceberg
-set background=dark
-
 inoremap <silent> jj <ESC>
 
 "inoremap <silent> :: <ESC>
@@ -98,3 +95,7 @@ endif
 
 " nerdtree
 autocmd VimEnter * execute 'NERDTree'
+
+" iceberg
+:colorscheme iceberg
+set background=dark
