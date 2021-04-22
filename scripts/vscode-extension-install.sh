@@ -1,3 +1,4 @@
+#!/bin/sh
 code --install-extension ask-toolkit.alexa-skills-kit-toolkit
 code --install-extension austin.code-gnu-global
 code --install-extension bungcip.better-toml

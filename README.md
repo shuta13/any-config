@@ -1,7 +1,7 @@
-# any-config
+# dotfiles
 
-## dotfiles
+clone this to `~` dir
 
-### vimrc
+## vimrc
 
 - setup dein : https://github.com/Shougo/dein.vim#readme
